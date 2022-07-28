@@ -24,10 +24,14 @@ const seedDB = async () => {
             title: `${sample(descriptors)} ${sample(places)}`,
             description: 'To be addeded',
             price,
+            geometry: {
+                type: "Point",
+                coordinates: [-113.1331, 47.0202]
+            },
             images: [
                 {
-                    url: 'https://res.cloudinary.com/dmaqzi0gl/image/upload/v1658818359/YelpCamp/su1jygjow2dyotnimkvx.png',
-                    filename: 'YelpCamp/su1jygjow2dyotnimkvx.png'
+                    url: 'https://res.cloudinary.com/dmaqzi0gl/image/upload/v1658969371/YelpCamp/anooua01gizpppupshht.png',
+                    filename: 'YelpCamp/anooua01gizpppupshht.png'
                 }
             ]
         })
