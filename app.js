@@ -18,8 +18,7 @@ const reviewsRoutes = require('./routes/reviews');
 const userRountes = require('./routes/users');
 const mongoSanitize = require('express-mongo-sanitize');
 const helmet = require("helmet");
-//const dbUrl = process.env.DB_URL || 'mongodb://127.0.0.1:27017/yelp-camp';
-const dbUrl = 'mongodb://127.0.0.1:27017/yelp-camp';
+const dbUrl = process.env.DB_URL || 'mongodb://127.0.0.1:27017/yelp-camp';
 
 const MongoStore = require('connect-mongo');
 const secret = process.env.SECRET || 'thisshouldbeabettersecret!';
