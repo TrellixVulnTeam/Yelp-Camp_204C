@@ -10,9 +10,9 @@
 
 ## To Run this APP
 
-* This APP has been deployed on Heroku:
+* This APP has been deployed on Render:
 
-  https://dry-chamber-61787.herokuapp.com/
+  https://cafe-advisor.onrender.com/
 
 * If you prefer to run it locally, clone this repo and type:
 
